@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Survey</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css-normalize.css">
+    
+    <!-- This is my fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <header>
+
+        <div class="logo">
+            <img src="images/knife-fork.png" alt="Logo of knife and fork">
+        </div>
+
+        <h1 id="title">Restaurant Survey</h1>
+
+        <p id="description">We are commited to provide you the best dining experience as possible, so we welcome your comments in this survey.</p>
+
+    </header>
+    
+    <main>
+
+    <form id="survey-form">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+                <br>
+
+            <div class="info">
+
+            <label for="name-label">Name:</label>
+            <input type="text" required name="name" id="name" placeholder="Enter Full Name">
+
+            <br><br>
+
+            <label for="email-label">Email:</label>
+            <input type="email" required name="email" id="email" placeholder="Enter Email">
+
+        
+            <br><br>
+            
+            <label for="phone-label" id="phone">Phone:</label>
+            <input type="number" name="number" id="number" min="0" max="9" placeholder="Enter Phone Number">
+
+            <br><br>
+                
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="male"> Male 
+            <br> 
+            <input type="radio" name="gender" id="female"> Female 
+
+            <br><br>
+
+            <label for="age">What is your age?</label>
+            <select name="age" id="age">
+                <option value="young">under 18</option>
+                <option value="old">19-34</option>
+                <option value="older">35-54</option>
+                <option value="oldest">55+</option>
+            </select>
+        </div>
+            
+
+        <br>
+
+
+        <fieldset>
+
+            <label for="guest-amount">How many where you in your dining party?</label>
+            <input type="number" name="number" id="guests" min="1" max="99"> 
+            <br><br>
+            <label for="date-label">When did you visit us?</label>
+            <input type="date" name="date" id="date">
+            
+            <br><br>
+
+            <div class="rating">
+
+            <label for="rating">Quality of food?</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+
+            <br><br>
+
+            <label for="rating">Your opinion of your portion size?</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+
+            <br><br>
+
+            <label for="rating">Ease of ordering</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+
+            <br><br>
+
+            <label for="rating">Service</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+
+            <br><br>
+
+            <label for="rating">Cleanliness</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+
+            <br><br>
+
+            <label for="rating">Overall Value</label>
+            <br><br>
+            <input type="checkbox" name="excellent" value="excellent"> Excellent
+            <br>
+            <input type="checkbox" name="good" value="good"> Good
+            <br>
+            <input type="checkbox" name="fair" value="fair"> Fair
+            <br>              
+            <input type="checkbox" name="poor" value="poor"> Poor
+            
+            </div>     
+            
+            <br><br>
+
+            <label for="comments">Please write here if you have anymore comments :)</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+        
+            
+        </fieldset>
+
+        
+
+            </fieldset>
+    </form>
+    </main>
+</div>    
+</body>
+</html>

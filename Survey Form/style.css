@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1024px;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+header {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+#title, legend{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+#description {
+    padding-left: 80px;
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+}
+
+fieldset {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border: 1px solid lightpink;
+    margin: 15px;
+    font-size: 25px;
+}  
+
+#number {
+    width: 330px
+}
+#comments {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
